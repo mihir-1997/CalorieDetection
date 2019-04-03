@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/mihir/PycharmProjects/ImageCNN/model/imageClassification.tflearn"
+all_model_checkpoint_paths: "/home/mihir/PycharmProjects/ImageCNN/model/imageClassification.tflearn"

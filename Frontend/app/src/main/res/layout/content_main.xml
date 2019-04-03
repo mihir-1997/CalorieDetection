@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/calorie_required_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context=".MainActivity"
+        tools:showIn="@layout/app_bar_main">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="1"
+            android:orientation="vertical"
+            android:layout_marginTop="60dp">
+
+            <LinearLayout
+                android:layout_weight="0.5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="8dp"
+                android:weightSum="1"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_weight="0.2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="2dp"
+                    android:orientation="vertical"
+                    android:background="#DDFFFF">
+
+                    <ImageView
+                        android:id="@+id/image"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/homeback"
+                        android:src="@drawable/calorierequirement"
+                        android:scaleType="centerCrop"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_weight="0.8"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="2dp"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/require"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Calorie Requirement"
+                        android:gravity="center"
+                        android:layout_margin="2dp"
+                        android:background="@drawable/homeback"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_weight="0.5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="8dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_weight="0.2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="2dp"
+                    android:weightSum="1"
+                    android:orientation="vertical"
+                    android:background="#DDFFFF">
+
+                    <ImageView
+                        android:id="@+id/image1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/homeback"
+                        android:src="@drawable/nutrientsource"
+                        android:scaleType="centerCrop"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_weight="0.8"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="2dp"
+                    android:orientation="vertical">
+
+
+                    <Button
+                        android:id="@+id/source"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Nutrient Sources"
+                        android:gravity="center"
+                        android:layout_margin="2dp"
+                        android:background="@drawable/homeback"/>
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.constraint.ConstraintLayout>
+</FrameLayout>

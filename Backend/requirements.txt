@@ -1,0 +1,7 @@
+Flask
+pillow
+numpy
+tensorflow==1.14
+tflearn
+click
+flask-mysqldb
