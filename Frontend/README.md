@@ -17,14 +17,14 @@ The APK is also attached in this repo
 			* This is another navigation which will take users to the screen where they can search for any particular nutritional sources
 		3. **Camera Icon**:
 			* This icon is used to launch the camera (by user's consent) and capture image which then will be sent to the server for processing
-	* [Sample Ouput](../output/Output-3.png "Home Screen")
+	* [Sample Ouput](../Output/Output-3.png "Home Screen")
 
 2. **Output Screen**:
 	* As the name suggests, this screen shows the output from backend which includes,
 		1. Name of food
 		2. Image of food
 		3. Nutritional Information like Calories, Total Fat, Cholesterol, Protein, etc.
-	* [Sample Ouput](../output/Output-1.png "Output")
+	* [Sample Ouput](../Output/Output-1.png "Output")
 
 # References
 
